@@ -1,0 +1,18 @@
+3081
+
+
+'''if root:
+    print 'Enter with: value = ', value, ', root = ', root.key
+    self.findSum(value, root.left)
+
+    if root.key == value:
+        print 'Root = value: ', root.key
+        return root.key
+    elif root.key < value and root.parent is not None:
+        if root.key + self.findSum(value-root.key, root.parent) == value:
+            print str(root.key) + " " + str(self.findSum(value-root.key, root.parent))
+            return str(root.key) + " " + str(self.findSum(value-root.key, root.parent))
+        print 'Go right: value = ', value, ', root = ', root.key
+        self.findSum(value, root.right)
+    else:
+        return 0'''
